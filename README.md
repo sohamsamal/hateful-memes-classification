@@ -29,6 +29,7 @@ The baseline/baseline_model.ipynb notebook includes steps to download the datase
 curl -L -o facebook-hateful-meme-dataset.zip "[https://www.kaggle.com/api/v1/datasets/download/parthplc/facebook-hateful-meme-dataset](https://www.kaggle.com/api/v1/datasets/download/parthplc/facebook-hateful-meme-dataset)"
 unzip -q facebook-hateful-meme-dataset.zip -d hateful-memes
 ```
+You can also download the dataset manually from Kaggle at [https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) and place it in the hateful-memes directory.
 ## Unzip the Dataset:
 Unzip the downloaded dataset to a directory named hateful-memes. The dataset contains three files:
 * train.jsonl
